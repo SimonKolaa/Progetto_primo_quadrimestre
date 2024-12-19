@@ -1,0 +1,16 @@
+[
+    {
+        "text": "Chi è il Re di Mondaino?",
+        "options": ["Angelo Galanti", "Dario Casali", "Marco Alberti", "Pierluigi Buccino"],
+        "correct_answer": 0,
+        "points": 1,
+        "correct_option": "Angelo Galanti"
+    },
+    {
+        "text": "Cosa sono le classi in Python?",
+        "options": ["Strutture che permettono di gestire cicli e condizioni.", "Funzioni speciali che servono solo a calcolare valori numerici.", "Modelli o schemi per creare oggetti, definendo attributi e metodi.", "Librerie predefinite utilizzate per importare funzionalità extra."],
+        "correct_answer": 2,
+        "points": 1,
+        "correct_option": "Modelli o schemi per creare oggetti, definendo attributi e metodi."
+    }
+]
