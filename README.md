@@ -1,7 +1,7 @@
 # Progetto Quiz
 
 ## Descrizione
-Il progetto Quiz è un'applicazione interattiva che consente agli utenti di rispondere a domande multiple con 4 opzioni di risposta. Ogni domanda ha una sola risposta corretta. L'utente deve selezionare la risposta corretta per procedere alla domanda successiva. 
+Il progetto Quiz consente agli utenti di rispondere a domande multiple con 4 opzioni di risposta, Ogni domanda ha una sola risposta corretta, L'utente deve selezionare la risposta corretta per procedere alla domanda successiva. 
 
 Questo progetto utilizza un file JSON per memorizzare le domande e le risposte e un file Python per gestire la logica del gioco e l'interfaccia utente.
 
