@@ -93,4 +93,4 @@ class Quiz:
             elif scelta == '3':
                 break
             else:
-                print("Scelta non valida, Riprova")
+                print("Scelta non valida, riprova")
