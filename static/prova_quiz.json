@@ -3,14 +3,85 @@
         "text": "Chi è il Re di Mondaino?",
         "options": ["Angelo Galanti", "Dario Casali", "Marco Alberti", "Pierluigi Buccino"],
         "correct_answer": 0,
-        "points": 1,
+        "points": 2,
         "correct_option": "Angelo Galanti"
     },
     {
         "text": "Cosa sono le classi in Python?",
         "options": ["Strutture che permettono di gestire cicli e condizioni.", "Funzioni speciali che servono solo a calcolare valori numerici.", "Modelli o schemi per creare oggetti, definendo attributi e metodi.", "Librerie predefinite utilizzate per importare funzionalità extra."],
         "correct_answer": 2,
-        "points": 1,
+        "points": 2,
         "correct_option": "Modelli o schemi per creare oggetti, definendo attributi e metodi."
-    }
-]
+    },
+    
+    {
+        "text": "Chi è il Re di Mondaino?",
+        "options": ["Angelo Galanti", "Dario Casali", "Marco Alberti", "Pierluigi Buccino"],
+        "correct_answer": 0,
+        "points": 2,
+        "correct_option": "Angelo Galanti"
+    },
+    { 
+        "text": "differenza eredarieta e polimoefismo in Python?",
+        "options": ["Erede è una classe che eredita le proprietà di un'altra classe, mentre il polimorfismo è la capacità di un oggetto di assumere forme diverse.", "Eredarieta è la capacità di un oggetto di assumere forme diverse, mentre il polimorfismo è una classe che eredita le proprietà di un'altra classe.", "Eredarieta è una classe che eredita le proprietà di un'altra classe, mentre il polimorfismo è la capacità di un oggetto di assumere forme diverse.", "Eredarieta è una classe che eredita le proprietà di un'altra classe, mentre il polimorfismo è una classe che eredita le proprietà di un'altra classe."],
+        "correct_answer": 2,
+        "points": 2,
+        "correct_option": "Eredarieta è una classe che eredita le proprietà di un'altra classe, mentre il polimorfismo è la capacità di un oggetto di assumere forme diverse."
+    },
+    {
+        "text": "chi ha inventato python?",
+        "options": ["Guido van Rossum", "Dennis Ritchie", "Bjarne Stroustrup", "James Gosling"],
+        "correct_answer": 0,
+        "points": 2,
+        "correct_option": "Guido van Rossum"
+    },
+    {
+        "text": "Cosa sono i magic methods in Python?",
+        "options": ["Metodi speciali che servono solo a calcolare valori numerici.", "Metodi speciali che permettono di gestire cicli e condizioni.", "Metodi speciali che servono a definire il comportamento di un oggetto.", "Metodi speciali che permettono di importare funzionalità extra."],
+        "correct_answer": 2,
+        "points": 2,
+        "correct_option": "Metodi speciali che servono a definire il comportamento di un oggetto."
+    },
+    {
+        "text": "Cosa sono i metodi in Python?",
+        "options": ["Strutture che permettono di gestire cicli e condizioni.", "Funzioni speciali che servono solo a calcolare valori numerici.", "Modelli o schemi per creare oggetti, definendo attributi e metodi.", "Funzioni definite all'interno di una classe, che permettono di definire il comportamento di un oggetto."],
+        "correct_answer": 3,
+        "points": 2,
+        "correct_option": "Funzioni definite all'interno di una classe, che permettono di definire il comportamento di un oggetto."
+    },
+    {
+        "text": "Cosa sono i metodi get e set in Python?",
+        "options": ["Metodi che servono a calcolare valori numerici.", "Metodi che permettono di gestire cicli e condizioni.", "Metodi che permettono di accedere e modificare gli attributi di un oggetto.", "Metodi che permettono di importare funzionalità extra."],
+        "correct_answer": 2,
+        "points": 2,
+        "correct_option": "Metodi che permettono di accedere e modificare gli attributi di un oggetto."
+    },
+    {
+        "text": "Cosa sono i moduli in Python?",
+        "options": ["Strutture che permettono di gestire cicli e condizioni.", "Funzioni speciali che servono solo a calcolare valori numerici.", "Modelli o schemi per creare oggetti, definendo attributi e metodi.", "File contenenti definizioni e istruzioni che possono essere importati in altri programmi."],
+        "correct_answer": 3,
+        "points": 2,
+        "correct_option": "File contenenti definizioni e istruzioni che possono essere importati in altri programmi."
+    },
+    {
+        "text": "Cosa sono le librerie in Python?",
+        "options": ["Strutture che permettono di gestire cicli e condizioni.", "Funzioni speciali che servono solo a calcolare valori numerici.", "Modelli o schemi per creare oggetti, definendo attributi e metodi.", "Collezioni di moduli che forniscono funzionalità aggiuntive."],
+        "correct_answer": 3,
+        "points": 2,
+        "correct_option": "Collezioni di moduli che forniscono funzionalità aggiuntive."
+    },
+    {
+        "text": "Cosa sono i dizionari in Python?",
+        "options": ["Strutture che permettono di gestire cicli e condizioni.", "Funzioni speciali che servono solo a calcolare valori numerici.", "Modelli o schemi per creare oggetti, definendo attributi e metodi.", "Collezioni di coppie chiave-valore."],
+        "correct_answer": 3,
+        "points": 2,
+        "correct_option": "Collezioni di coppie chiave-valore."
+    },
+    {
+        "text": "Cosa sono le liste in Python?",
+        "options": ["Strutture che permettono di gestire cicli e condizioni.", "Funzioni speciali che servono solo a calcolare valori numerici.", "Modelli o schemi per creare oggetti, definendo attributi e metodi.", "Collezioni ordinate di elementi."],
+        "correct_answer": 3,
+        "points": 2,
+        "correct_option": "Collezioni ordinate di elementi."
+        }
+        ]
