@@ -10,10 +10,10 @@ class Domanda:
     testo: str
     opzioni: List[str]
     risposta_corretta: int
-    punti: int = 2  # Ogni domanda giusta vale 2 punti
+    punti: int = 1
 
 class Quiz:
-    def __init__(self, file_quiz: str = 'static/prova_quiz.json'):
+    def __init__(self, file_quiz: str):
         self.file_quiz = file_quiz
         self.domande = []
         self.punteggio = 0
@@ -47,13 +47,13 @@ class Quiz:
             json.dump(dati, f, indent=4)
 
     def aggiungi_domanda(self):
-        testo = input("inserisci il testo della domanda:")
+        testo = input("Inserisci il testo della domanda: ")
         opzioni = []
         for i in range(4):
-            opzione = input(f"inserisci l'opzione {i+1}: ")
+            opzione = input(f"Inserisci l'opzione {i+1}: ")
             opzioni.append(opzione)
-        risposta_corretta = int(input("numero dell'opzione corretta (1-4): ")) - 1
-        punti = int(input("punti per questa domanda: "))
+        risposta_corretta = int(input("Numero dell'opzione corretta (1-4): ")) - 1
+        punti = int(input("Punti per questa domanda: "))
         nuova_domanda = Domanda(testo, opzioni, risposta_corretta, punti)
         self.domande.append(nuova_domanda)
         self.salva_domande()
@@ -61,33 +61,36 @@ class Quiz:
     def mostra_domanda(self, domanda: Domanda):
         print(Fore.YELLOW + domanda.testo + Style.RESET_ALL)
         for i, opzione in enumerate(domanda.opzioni):
-            print(f"{i + 1}. {opzione}")
+            if i == domanda.risposta_corretta:
+                print(Fore.GREEN + f"{i + 1}. {opzione} (corretta)" + Style.RESET_ALL)
+            else:
+                print(f"{i + 1}. {opzione}")
 
     def verifica_risposta(self, domanda: Domanda):
-        risposta = int(input("inserisci il numero della risposta corretta: ")) - 1
+        risposta = int(input("Inserisci il numero della risposta corretta: ")) - 1
         if risposta == domanda.risposta_corretta:
-            print(Fore.GREEN + "risposta corretta!" + Style.RESET_ALL)
+            print(Fore.GREEN + "Risposta corretta!" + Style.RESET_ALL)
             return True
         else:
-            print(Fore.RED + "risposta sbagliata" + Style.RESET_ALL)
+            print(Fore.RED + "Risposta sbagliata." + Style.RESET_ALL)
             return False
 
-    def run(self):
-        print("benvenuto al quiz su Python! Scrivi 'gioca' per iniziare")
-        comando = input("scrivi 'gioca' per iniziare: ").strip().lower() #ai
-        if comando == 'gioca':
-            while self.punteggio < 10:
-                for domanda in self.domande:
-                    self.mostra_domanda(domanda)
-                    if self.verifica_risposta(domanda):
-                        self.punteggio += domanda.punti
-                        print(f"punteggio attuale: {self.punteggio}")
-                        if self.punteggio >= 10:
-                            print("Hai vinto!")
-                    else:
-                        self.punteggio = 0
-                        print("Risposta sbagliata. Punteggio resettato a 0.")
-
-if __name__ == "__main__":
-    quiz = Quiz()
-    quiz.run()
+    def esegui(self):
+        while True:
+            print("1. Inizia il quiz")
+            print("2. Aggiungi una domanda")
+            print("3. Esci")
+            scelta = input("Scegli un'opzione: ")
+            if scelta == '1':
+                for i in self.domande:
+                    self.mostra_domanda(i)
+                    if self.verifica_risposta(i):
+                        self.punteggio += i.punti
+                print(f"Il tuo punteggio finale è: {self.punteggio}")
+                break
+            elif scelta == '2':
+                self.aggiungi_domanda()
+            elif scelta == '3':
+                break
+            else:
+                print("Scelta non valida, riprova")
