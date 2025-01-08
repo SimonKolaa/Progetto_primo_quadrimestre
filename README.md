@@ -68,6 +68,27 @@ Ecco un esempio di formato delle domande nel file JSON:
 
 In questo esempio, la risposta corretta è la prima opzione.
 
+## SE VIENE GENERATO L'ERRORE "NO SUCH FILE OR DIRECTORY"
+Piano
+
+Creare la struttura delle directory del progetto
+Configurare i file JSON e Python
+Creare l'ambiente virtuale
+Eseguire il programma
+
+## Passaggi
+
+Creare la struttura delle directory
+mkdir C:\User\persona\quiz_project
+cd C:\User\persona\quiz_project
+
+e poi eseguire
+cd C:\User\persona\quiz_project
+python -m venv venv
+.\venv\Scripts\activate
+pip install colorama
+python progetto.py
+
 ## Autori
 - [Simon Kola]
 ## Licenza
