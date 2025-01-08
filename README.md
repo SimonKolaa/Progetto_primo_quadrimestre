@@ -1,35 +1,63 @@
-# Progetto Quiz
+LEGGERE PRIMA DI GIOCARE
 
 ## Descrizione
 Il progetto Quiz consente agli utenti di rispondere a domande multiple con 4 opzioni di risposta, Ogni domanda ha una sola risposta corretta, L'utente deve selezionare la risposta corretta per procedere alla domanda successiva. 
 
-Questo progetto utilizza un file JSON per memorizzare le domande e le risposte e un file Python per gestire la logica del gioco e l'interfaccia utente.
+# Quiz Game sul Terminale
 
-## Installazione
-Segui questi passaggi per configurare l'ambiente di sviluppo e avviare il progetto:
+Benvenuto! Questo è il mio **quiz game** eseguibile direttamente sul terminale.
 
-```bash
-# Crea un ambiente virtuale
-python -m venv venv
+## Come Usarlo
 
-# Attiva l'ambiente virtuale
-# Su Linux/macOS:
-source venv/bin/activate
-# Su Windows:
-venv\Scripts\activate
+1. **Copiare il repository**:
+   - Utilizzare il protocollo HTTPS per clonare il repository sul proprio dispositivo.
 
-# Installa le dipendenze
-pip install -r requirements.txt
-```
+2. **Preparazione dell'ambiente**:
+   - Assicurarsi che il file Python e il file JSON si trovino nella stessa directory, senza una cartella statica.
+   - Creare un ambiente virtuale:
+     ```bash
+     python -m venv venv
+     source venv/bin/activate  # Su Windows: venv\Scripts\activate
+     ```
+   - Installare le librerie richieste tramite `pip`:
+     ```bash
+     pip install -r requirements.txt
+     ```
 
-## Utilizzo
-Dopo aver configurato l'ambiente, esegui il file principale per iniziare il quiz:
+3. **Eseguire il progetto**:
+   - Nel terminale, digitare:
+     ```bash
+     python progetto.py
+     ```
+   - Il file verrà eseguito. 
 
-```bash
-python src/quiz.py
-```
+4. **Documentazione visuale**:
+   - Il progetto include un diagramma generato con **PlantUML** che spiega il funzionamento tramite una mappa.
+   
+## Funzionamento
+## Menù Principale
 
-Assicurati che il file JSON contenente le domande sia presente nella directory indicata dallo script Python.
+Il progetto presenta un menù principale con le seguenti opzioni:
+
+1. **Inizia Quiz**: 
+   - Avvia il quiz e consente di rispondere a varie domande sulle classi e sulla programmazione orientata agli oggetti (OOP) in Python.
+   - Al termine, verrà mostrato il punteggio finale. 
+
+2. **Aggiungi Domanda**:
+   - Permette di aggiungere nuove domande al quiz. 
+   - È possibile inserire:
+     - La domanda.
+     - La risposta corretta.
+     - Il punteggio associato alla domanda.
+   - La domanda viene automaticamente salvata nel file JSON, rendendola disponibile per futuri utilizzi.
+
+3. **Esci**:
+   - Termina il programma ringraziando l'utente per aver giocato.
+
+## Buon Divertimento!
+
+Inizia subito il quiz e metti alla prova le tue conoscenze su Python e OOP!
+
 
 ## Esempio di domanda
 Ecco un esempio di formato delle domande nel file JSON:
