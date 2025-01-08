@@ -1,0 +1,156 @@
+[
+    {
+        "testo": "Chi è il Re di Mondaino?",
+        "opzioni": [
+            "Angelo Galanti",
+            "Dario Casali",
+            "Marco Alberti",
+            "Pierluigi Buccino"
+        ],
+        "risposta_corretta": 1,
+        "punti": 2
+    },
+    {
+        "testo": "Cosa sono le classi in Python?",
+        "opzioni": [
+            "Strutture che permettono di gestire cicli e condizioni",
+            "Funzioni speciali che servono solo per calcolare valori numerici",
+            "Modelli o schemi per creare oggetti, definendo attributi e metodi",
+            "Librerie predefinite utilizzate per importare funzionalità extra"
+        ],
+        "risposta_corretta": 3,
+        "punti": 2
+    },
+    {
+        "testo": "Qual è la differenza tra ereditarietà e polimorfismo in Python?",
+        "opzioni": [
+            "L'ereditarietà è una classe che eredita proprietà di un'altra classe, mentre il polimorfismo è la capacità di un oggetto di assumere forme diverse",
+            "L'ereditarietà è la capacità di un oggetto di assumere forme diverse, mentre il polimorfismo è una classe che eredita proprietà",
+            "L'ereditarietà è una classe che eredita proprietà di un'altra classe, mentre il polimorfismo è la capacità di un oggetto di assumere forme diverse",
+            "L'ereditarietà e il polimorfismo sono la stessa cosa"
+        ],
+        "risposta_corretta": 3,
+        "punti": 2
+    },
+    {
+        "testo": "Chi ha inventato Python?",
+        "opzioni": [
+            "Guido van Rossum",
+            "Dennis Ritchie",
+            "Bjarne Stroustrup",
+            "James Gosling"
+        ],
+        "risposta_corretta": 1,
+        "punti": 2
+    },
+    {
+        "testo": "Cosa sono i metodi magici in Python?",
+        "opzioni": [
+            "Metodi speciali per calcolare valori numerici",
+            "Metodi speciali per gestire cicli e condizioni",
+            "Metodi speciali per definire il comportamento di un oggetto",
+            "Metodi speciali per importare funzionalità extra"
+        ],
+        "risposta_corretta": 3,
+        "punti": 2
+    },
+    {
+        "testo": "Cosa sono i metodi in Python?",
+        "opzioni": [
+            "Strutture per gestire cicli e condizioni",
+            "Funzioni speciali per calcoli numerici",
+            "Modelli per creare oggetti",
+            "Funzioni definite in una classe che definiscono il comportamento di un oggetto"
+        ],
+        "risposta_corretta": 4,
+        "punti": 2
+    },
+    {
+        "testo": "Cosa sono i metodi magici in Python?",
+        "opzioni": [
+            "Metodi speciali che servono solo per calcolare valori numerici",
+            "Metodi speciali che permettono di gestire cicli e condizioni",
+            "Metodi speciali che servono a definire il comportamento di un oggetto",
+            "Metodi speciali che permettono di importare funzionalità extra"
+        ],
+        "risposta_corretta": 3,
+        "punti": 2
+    },
+    {
+        "testo": "Cosa sono i metodi in Python?",
+        "opzioni": [
+            "Funzioni definite in una classe che definiscono il comportamento di un oggetto",
+            "Strutture per gestire cicli e condizioni",
+            "Funzioni speciali per calcoli numerici",
+            "Modelli per creare oggetti"
+        ],
+        "risposta_corretta": 1,
+        "punti": 2
+    },
+    {
+        "testo": "A cosa servono i metodi get e set in Python?",
+        "opzioni": [
+            "Per calcolare valori numerici",
+            "Per gestire cicli e condizioni",
+            "Per accedere e modificare gli attributi di un oggetto",
+            "Per importare funzionalità extra"
+        ],
+        "risposta_corretta": 3,
+        "punti": 2
+    },
+    {
+        "testo": "Cosa sono i moduli in Python?",
+        "opzioni": [
+            "File contenenti definizioni e istruzioni importabili in altri programmi",
+            "Strutture per gestire cicli e condizioni",
+            "Funzioni speciali per calcoli numerici",
+            "Modelli per creare oggetti"
+        ],
+        "risposta_corretta": 1,
+        "punti": 2
+    },
+    {
+        "testo": "Cosa sono le librerie in Python?",
+        "opzioni": [
+            "Collezioni di moduli con funzionalità aggiuntive",
+            "Strutture per gestire cicli",
+            "Funzioni per calcoli",
+            "Modelli per oggetti"
+        ],
+        "risposta_corretta": 1,
+        "punti": 2
+    },
+    {
+        "testo": "Cosa sono i dizionari in Python?",
+        "opzioni": [
+            "Collezioni di coppie chiave-valore",
+            "Strutture che permettono di gestire cicli e condizioni.",
+            "Funzioni speciali che servono solo a calcolare valori numerici.",
+            "Modelli o schemi per creare oggetti, definendo attributi e metodi."
+        ],
+        "risposta_corretta": 1,
+        "punti": 2
+    },
+    {
+       "testo": "Cosa sono le liste in Python?",
+        "opzioni": [
+            "Collezioni ordinate di elementi",
+            "Strutture che permettono di gestire cicli e condizioni.",
+            "Funzioni speciali che servono solo a calcolare valori numerici.",
+            "Modelli o schemi per creare oggetti, definendo attributi e metodi."
+        ],
+        "risposta_corretta": 1,
+        "punti": 2
+    },
+    {
+        "testo": "quale città è in italia?",
+        "opzioni": [
+            "budapest",
+            "napoli",
+            "parigi",
+            "londra"
+        ],
+        "risposta_corretta": 1,
+        "punti": 2
+    }
+]
