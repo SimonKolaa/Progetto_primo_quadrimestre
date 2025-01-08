@@ -66,7 +66,7 @@ Ecco un esempio di formato delle domande nel file JSON:
 
 ![image](https://github.com/user-attachments/assets/40bd49f1-028e-4146-a8df-9b618db59c11)
 
-In questo esempio, la risposta corretta è la terza opzione (indice 2).
+In questo esempio, la risposta corretta è la prima opzione.
 
 ## Autori
 - [Simon Kola]
