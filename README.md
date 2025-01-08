@@ -64,19 +64,7 @@ Inizia subito il quiz e metti alla prova le tue conoscenze su Python e OOP!
 ## Esempio di domanda
 Ecco un esempio di formato delle domande nel file JSON:
 
-[
-  {
-    "domanda": "Cosa sono le classi in Python?",
-    "opzioni": [
-      "Strutture che permettono di gestire cicli e condizioni.",
-      "Funzioni speciali che servono solo a calcolare valori numerici.",
-      "Modelli o schemi per creare oggetti, definendo attributi e metodi.",
-      "Librerie predefinite utilizzate per importare funzionalità extra."
-    ],
-    "corretta": 2
-  }
-]
-```
+![image](https://github.com/user-attachments/assets/40bd49f1-028e-4146-a8df-9b618db59c11)
 
 In questo esempio, la risposta corretta è la terza opzione (indice 2).
 
