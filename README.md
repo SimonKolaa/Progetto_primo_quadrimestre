@@ -1,4 +1,4 @@
-LEGGERE PRIMA DI GIOCARE
+LEGGERE E SEGUIRE LE ISTRUZIONI PER GIOCARE
 
 ## Descrizione
 Il progetto Quiz consente agli utenti di rispondere a domande multiple con 4 opzioni di risposta, Ogni domanda ha una sola risposta corretta, L'utente deve selezionare la risposta corretta per procedere alla domanda successiva. 
@@ -57,6 +57,8 @@ Il progetto presenta un menù principale con le seguenti opzioni:
 ## Buon Divertimento!
 
 Inizia subito il quiz e metti alla prova le tue conoscenze su Python e OOP!
+
+![image](https://github.com/user-attachments/assets/6005a18c-0c5b-4778-b080-4adf65ecfbb6)
 
 
 ## Esempio di domanda
