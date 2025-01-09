@@ -1,0 +1,47 @@
+@startuml Quiz Game
+
+class Domanda {
+    +str testo
+    +lista[str] opzioni
+    +int risposta_corretta
+    +int punti
+}
+
+class Quiz {
+    +str file_quiz
+    +lista[Domanda] domande
+    +int punteggio
+    +bool carica_domande()
+    +bool salva_domande()
+    +bool aggiungi_domanda()
+    +bool mostra_domanda(domanda)
+    +bool gioca()
+    +bool menu_principale()
+}
+
+class Menu {
+    +str titolo
+    +lista[str] opzioni
+    +bool attivo
+}
+
+class Gioco {
+    +int punteggio_totale
+    +bool in_corso
+    +datetime data_partita
+}
+
+class GestoreFile {
+    +str percorso
+    +str encoding
+    +bool salva_json()
+    +bool carica_json()
+}
+
+Quiz "1" -- "*" Domanda : gestisce
+Menu "1" -- "1" Quiz : mostra
+Quiz "1" -- "1" Gioco : esegue
+Quiz "1" -- "1" GestoreFile : utilizza
+Domanda "*" -- "1" Gioco : appartiene
+
+@enduml
