@@ -79,14 +79,20 @@ Eseguire il programma
 ## Passaggi
 
 Creare la struttura delle directory
+
 mkdir C:\User\persona\quiz_project
+
 cd C:\User\persona\quiz_project
 
 e poi eseguire
 cd C:\User\persona\quiz_project
+
 python -m venv venv
+
 .\venv\Scripts\activate
+
 pip install colorama
+
 python progetto.py
 
 ## Autori
